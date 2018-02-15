@@ -1,0 +1,27 @@
+{
+  "name": "ovovo",
+  "version": "1.0.0",
+  "description": "A lil lib for obsessive kerning on the web",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.es6.js -o index.js -t [ babelify --presets [env] ]"
+  },
+  "author": "Bryant Wells",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryantwells/ovovo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bryantwells/ovovo/issues"
+  },
+  "homepage": "https://github.com/bryantwells/ovovo#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.0.0"
+  },
+  "dependencies": {}
+}
