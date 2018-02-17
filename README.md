@@ -52,6 +52,8 @@ becomes...
 
 ## to do  
 * [ ] unit testing
+* [ ] better readme
+* [ ] better code
 * [ ] ???
 
 
